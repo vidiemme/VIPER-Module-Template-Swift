@@ -48,7 +48,3 @@ extension ___VARIABLE_productName:identifier___Presenter: ___VARIABLE_productNam
 extension ___VARIABLE_productName:identifier___Presenter: ___VARIABLE_productName:identifier___InteractorOutput {
     
 }
-
-extension ___VARIABLE_productName:identifier___Presenter: ___VARIABLE_productName:identifier___Delegate {
-    
-}
