@@ -19,11 +19,11 @@ extension ___VARIABLE_productName:identifier___Wireframe: ___VARIABLE_productNam
         }
     }
     
-    func module() -> ___VARIABLE_productName:identifier___ViewController {
+    func module(withDelegate delegate: ___VARIABLE_productName:identifier___Delegate? = nil) -> ___VARIABLE_productName:identifier___ViewController {
         let vc = mainStoryboard.instantiateViewController(withIdentifier: "___VARIABLE_productName:identifier___ViewController") as! ___VARIABLE_productName:identifier___ViewController
 
         let interactor = ___VARIABLE_productName:identifier___Interactor()
-        let presenter = ___VARIABLE_productName:identifier___Presenter(viewController: vc, interactor: interactor, wireframe: self)
+        let presenter = ___VARIABLE_productName:identifier___Presenter(viewController: vc, interactor: interactor, wireframe: self, delegate: delegate ?? nil)
         vc.eventHandler = presenter
         vc.dataProvider = presenter
 

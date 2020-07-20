@@ -13,13 +13,16 @@ class ___VARIABLE_productName:identifier___Presenter: ___VARIABLE_productName:id
     fileprivate weak var viewController: ___VARIABLE_productName:identifier___ViewController?
     fileprivate let interactor: ___VARIABLE_productName:identifier___InteractorProtocol
     fileprivate let wireframe: ___VARIABLE_productName:identifier___WireframeProtocol
+    fileprivate weak var delegate: ___VARIABLE_productName:identifier___Delegate?
     
     init(viewController: ___VARIABLE_productName:identifier___ViewController,
          interactor: ___VARIABLE_productName:identifier___InteractorProtocol,
-         wireframe: ___VARIABLE_productName:identifier___WireframeProtocol) {
+         wireframe: ___VARIABLE_productName:identifier___WireframeProtocol,
+         delegate: ___VARIABLE_productName:identifier___Delegate?) {
         self.viewController = viewController
         self.interactor = interactor
         self.wireframe = wireframe
+        self.delegate = delegate
     }
     
     // MARK: - ___VARIABLE_productName:identifier___DataProvider
