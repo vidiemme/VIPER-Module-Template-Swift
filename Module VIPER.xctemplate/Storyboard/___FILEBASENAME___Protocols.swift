@@ -15,7 +15,7 @@ protocol ___VARIABLE_productName:identifier___InteractorProtocol: AnyObject {
 
 protocol ___VARIABLE_productName:identifier___WireframeProtocol: AnyObject {
 	func module() -> ___VARIABLE_productName:identifier___ViewController
-    func dismiss(_ vc: ___VARIABLE_productName:identifier___ViewController)
+    func dismiss(_ ui: ___VARIABLE_productName:identifier___UI)
 }
 
 protocol ___VARIABLE_productName:identifier___EventHandler: AnyObject {
@@ -28,5 +28,9 @@ protocol ___VARIABLE_productName:identifier___DataProvider: AnyObject {
 }
 
 protocol ___VARIABLE_productName:identifier___InteractorOutput: AnyObject {
+
+}
+
+protocol ___VARIABLE_productName:identifier___UI: AnyObject {
 
 }

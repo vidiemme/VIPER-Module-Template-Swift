@@ -23,7 +23,7 @@ extension ___VARIABLE_productName:identifier___Wireframe: ___VARIABLE_productNam
         let vc = mainStoryboard.instantiateViewController(withIdentifier: "___VARIABLE_productName:identifier___ViewController") as! ___VARIABLE_productName:identifier___ViewController
 
         let interactor = ___VARIABLE_productName:identifier___Interactor()
-        let presenter = ___VARIABLE_productName:identifier___Presenter(viewController: vc, interactor: interactor, wireframe: self)
+        let presenter = ___VARIABLE_productName:identifier___Presenter(ui: vc, interactor: interactor, wireframe: self)
         vc.eventHandler = presenter
         vc.dataProvider = presenter
 
@@ -32,7 +32,7 @@ extension ___VARIABLE_productName:identifier___Wireframe: ___VARIABLE_productNam
     }
     
     // MARK: - ___VARIABLE_productName:identifier___WireframeProtocol
-    func dismiss(_ vc: ___VARIABLE_productName:identifier___ViewController) {
+    func dismiss(_ ui: ___VARIABLE_productName:identifier___UI) {
         // Add custom implementation to dismiss viewController
     }
 }

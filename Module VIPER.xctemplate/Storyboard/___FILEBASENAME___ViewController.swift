@@ -40,3 +40,7 @@ class ___VARIABLE_productName:identifier___ViewController: UIViewController {
     // MARK: - Actions
     // Place here possible IBActions
 }
+
+extension ___VARIABLE_productName:identifier___ViewController: ___VARIABLE_productName:identifier___UI {
+	
+}

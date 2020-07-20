@@ -10,14 +10,14 @@ import Foundation
 
 class ___VARIABLE_productName:identifier___Presenter: ___VARIABLE_productName:identifier___DataProvider {
     
-    fileprivate weak var viewController: ___VARIABLE_productName:identifier___ViewController?
+    fileprivate weak var ui: ___VARIABLE_productName:identifier___UI?
     fileprivate let interactor: ___VARIABLE_productName:identifier___InteractorProtocol
     fileprivate let wireframe: ___VARIABLE_productName:identifier___WireframeProtocol
     
-    init(viewController: ___VARIABLE_productName:identifier___ViewController,
+    init(ui: ___VARIABLE_productName:identifier___UI,
          interactor: ___VARIABLE_productName:identifier___InteractorProtocol,
          wireframe: ___VARIABLE_productName:identifier___WireframeProtocol) {
-        self.viewController = viewController
+        self.ui = ui
         self.interactor = interactor
         self.wireframe = wireframe
     }
@@ -38,7 +38,7 @@ extension ___VARIABLE_productName:identifier___Presenter: ___VARIABLE_productNam
     }
     
     func onDismiss() {
-        guard let vc = viewController else { return }
+        guard let vc = ui else { return }
         wireframe.dismiss(vc)
     }
 }
