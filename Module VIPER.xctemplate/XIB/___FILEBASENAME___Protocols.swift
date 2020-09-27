@@ -35,3 +35,6 @@ protocol ___VARIABLE_productName:identifier___Delegate: class {
     
 }
 
+protocol ___VARIABLE_productName:identifier___NetworkManagerProtocol: AnyObject {
+
+}
