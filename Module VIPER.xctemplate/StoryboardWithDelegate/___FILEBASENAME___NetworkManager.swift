@@ -8,6 +8,6 @@
 
 import Foundation
 
-class ___VARIABLE_productName:identifier___NetworkManager {
+class ___VARIABLE_productName:identifier___NetworkManager: ___VARIABLE_productName:identifier___NetworkManagerProtocol {
 
 }

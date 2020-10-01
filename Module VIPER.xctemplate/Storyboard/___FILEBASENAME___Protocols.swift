@@ -34,3 +34,7 @@ protocol ___VARIABLE_productName:identifier___InteractorOutput: AnyObject {
 protocol ___VARIABLE_productName:identifier___UI: AnyObject {
 
 }
+
+protocol ___VARIABLE_productName:identifier___NetworkManagerProtocol: AnyObject {
+
+}

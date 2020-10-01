@@ -10,8 +10,12 @@ import Foundation
 
 class ___VARIABLE_productName:identifier___Interactor {
 
-	let networkManager = ___VARIABLE_productName:identifier___NetworkManager()
+	fileprivate let networkManager: ___VARIABLE_productName:identifier___NetworkManagerProtocol
     weak var output: ___VARIABLE_productName:identifier___InteractorOutput?
+
+    init(networkManager: ___VARIABLE_productName:identifier___NetworkManagerProtocol = ___VARIABLE_productName:identifier___NetworkManager()){
+        self.networkManager = networkManager
+    }
 }
 
 extension ___VARIABLE_productName:identifier___Interactor: ___VARIABLE_productName:identifier___InteractorProtocol {
