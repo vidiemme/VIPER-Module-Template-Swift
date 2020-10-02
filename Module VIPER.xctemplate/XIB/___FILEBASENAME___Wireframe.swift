@@ -17,7 +17,7 @@ extension ___VARIABLE_productName:identifier___Wireframe: ___VARIABLE_productNam
         let vc = ___VARIABLE_productName:identifier___ViewController.init(nibName: "___VARIABLE_productName:identifier___ViewController", bundle: nil)
 
         let interactor = ___VARIABLE_productName:identifier___Interactor()
-        let presenter = ___VARIABLE_productName:identifier___Presenter(viewController: vc, interactor: interactor, wireframe: self, delegate: delegate ?? nil)
+        let presenter = ___VARIABLE_productName:identifier___Presenter(view: vc, interactor: interactor, wireframe: self, delegate: delegate ?? nil)
         vc.eventHandler = presenter
         vc.dataProvider = presenter
 
@@ -26,7 +26,7 @@ extension ___VARIABLE_productName:identifier___Wireframe: ___VARIABLE_productNam
     }
     
     // MARK: - ___VARIABLE_productName:identifier___WireframeProtocol
-    func dismiss(_ vc: ___VARIABLE_productName:identifier___ViewController) {
+    func dismiss(_ view: ___VARIABLE_productName:identifier___ViewProtocol) {
         // Add custom implementation to dismiss viewController
     }
 }

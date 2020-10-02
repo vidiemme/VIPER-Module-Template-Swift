@@ -31,12 +31,13 @@ class ___VARIABLE_productName:identifier___ViewController: UIViewController {
     fileprivate func setupUI() {
 
     }
-    
-    // MARK: - External Utils
-    func updateUI() {
-        
-    }
-    
+
     // MARK: - Actions
     // Place here possible IBActions
+}
+
+extension ___VARIABLE_productName:identifier___ViewController: ___VARIABLE_productName:identifier___ViewProtocol {
+    func updateUI() {
+
+    }
 }
