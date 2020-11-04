@@ -9,12 +9,12 @@
 import UIKit
 
 class ___VARIABLE_productName:identifier___Wireframe {
-
+    private let nibName = "___VARIABLE_productName:identifier___ViewController"
 }
 
 extension ___VARIABLE_productName:identifier___Wireframe: ___VARIABLE_productName:identifier___WireframeProtocol {
     func createFromXibWithDelegate(_ delegate: ___VARIABLE_productName:identifier___Delegate? = nil) -> ___VARIABLE_productName:identifier___ViewController {
-        let vc = ___VARIABLE_productName:identifier___ViewController.init(nibName: "___VARIABLE_productName:identifier___ViewController", bundle: nil)
+        let vc = ___VARIABLE_productName:identifier___ViewController.init(nibName: nibName, bundle: nil)
 
         let interactor = ___VARIABLE_productName:identifier___Interactor()
         let presenter = ___VARIABLE_productName:identifier___Presenter(view: vc, interactor: interactor, wireframe: self, delegate: delegate ?? nil)
