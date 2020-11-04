@@ -17,7 +17,7 @@ extension ___VARIABLE_productName:identifier___Wireframe: ___VARIABLE_productNam
         let vc = ___VARIABLE_productName:identifier___ViewController.init(nibName: nibName, bundle: nil)
 
         let interactor = ___VARIABLE_productName:identifier___Interactor()
-        let presenter = ___VARIABLE_productName:identifier___Presenter(view: vc, interactor: interactor, wireframe: self, delegate: delegate ?? nil)
+        let presenter = ___VARIABLE_productName:identifier___Presenter(view: vc, interactor: interactor, wireframe: self, delegate: delegate)
         vc.eventHandler = presenter
         vc.dataProvider = presenter
 
