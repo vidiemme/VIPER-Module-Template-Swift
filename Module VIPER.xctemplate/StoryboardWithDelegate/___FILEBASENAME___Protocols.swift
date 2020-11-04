@@ -40,5 +40,5 @@ protocol ___VARIABLE_productName:identifier___Delegate: AnyObject {
 }
 
 protocol ___VARIABLE_productName:identifier___NetworkManagerProtocol: AnyObject {
-
+    // Add ___VARIABLE_productName:identifier___NetworkManagerProtocol definition
 }

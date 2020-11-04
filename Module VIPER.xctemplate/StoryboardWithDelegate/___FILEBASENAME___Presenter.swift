@@ -28,7 +28,6 @@ class ___VARIABLE_productName:identifier___Presenter: ___VARIABLE_productName:id
     // MARK: - ___VARIABLE_productName:identifier___DataProvider
     // All data provider properties defined
     
-    
     // MARK: - Internal Utils
     // All internal methods not defined in any protocol
 }
