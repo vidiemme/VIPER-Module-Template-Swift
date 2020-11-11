@@ -9,5 +9,5 @@
 import Foundation
 
 class ___VARIABLE_productName:identifier___NetworkManager: ___VARIABLE_productName:identifier___NetworkManagerProtocol {
-
+    // Add variables and methods to retrieve data
 }

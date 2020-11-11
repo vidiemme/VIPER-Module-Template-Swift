@@ -9,15 +9,13 @@
 import UIKit
 
 class ___VARIABLE_productName:identifier___Wireframe {
-
+    
+    private var mainStoryboard: UIStoryboard {
+        return UIStoryboard(name: "___VARIABLE_productName:identifier___ViewController", bundle: Bundle.main)
+    }
 }
 
 extension ___VARIABLE_productName:identifier___Wireframe: ___VARIABLE_productName:identifier___WireframeProtocol {
-    private var mainStoryboard: UIStoryboard {
-        get {
-            return UIStoryboard(name: "___VARIABLE_productName:identifier___", bundle: Bundle.main)
-        }
-    }
     
     func module() -> ___VARIABLE_productName:identifier___ViewController {
         let vc = mainStoryboard.instantiateViewController(withIdentifier: "___VARIABLE_productName:identifier___") as! ___VARIABLE_productName:identifier___ViewController
