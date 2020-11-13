@@ -14,7 +14,7 @@ protocol ___VARIABLE_productName:identifier___ViewProtocol: AnyObject {
 }
 
 protocol ___VARIABLE_productName:identifier___InteractorProtocol: AnyObject {
-
+    // Add ___VARIABLE_productName:identifier___InteractorProtocol definition
 }
 
 protocol ___VARIABLE_productName:identifier___WireframeProtocol: AnyObject {
@@ -28,13 +28,13 @@ protocol ___VARIABLE_productName:identifier___EventHandler: AnyObject {
 }
 
 protocol ___VARIABLE_productName:identifier___DataProvider: AnyObject {
-
+    // Add ___VARIABLE_productName:identifier___DataProvider definition
 }
 
 protocol ___VARIABLE_productName:identifier___InteractorOutput: AnyObject {
-
+    // Add ___VARIABLE_productName:identifier___InteractorOutput definition
 }
 
 protocol ___VARIABLE_productName:identifier___NetworkManagerProtocol: AnyObject {
-
+    // Add ___VARIABLE_productName:identifier___NetworkManagerProtocol definition
 }

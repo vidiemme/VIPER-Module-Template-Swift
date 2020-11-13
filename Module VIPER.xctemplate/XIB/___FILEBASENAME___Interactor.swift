@@ -19,5 +19,5 @@ class ___VARIABLE_productName:identifier___Interactor {
 }
 
 extension ___VARIABLE_productName:identifier___Interactor: ___VARIABLE_productName:identifier___InteractorProtocol {
-	
+    // Add NextLaunchesInteractorProtocol implementation
 }
