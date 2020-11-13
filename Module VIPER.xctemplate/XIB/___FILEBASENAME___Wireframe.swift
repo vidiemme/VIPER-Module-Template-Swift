@@ -13,11 +13,11 @@ class ___VARIABLE_productName:identifier___Wireframe {
 }
 
 extension ___VARIABLE_productName:identifier___Wireframe: ___VARIABLE_productName:identifier___WireframeProtocol {
-    func createFromXibWithDelegate(_ delegate: ___VARIABLE_productName:identifier___Delegate? = nil) -> ___VARIABLE_productName:identifier___ViewController {
+    func createFromXib() -> ___VARIABLE_productName:identifier___ViewController {
         let vc = ___VARIABLE_productName:identifier___ViewController(nibName: nibName, bundle: nil)
 
         let interactor = ___VARIABLE_productName:identifier___Interactor()
-        let presenter = ___VARIABLE_productName:identifier___Presenter(view: vc, interactor: interactor, wireframe: self, delegate: delegate)
+        let presenter = ___VARIABLE_productName:identifier___Presenter(view: vc, interactor: interactor, wireframe: self)
         vc.eventHandler = presenter
         vc.dataProvider = presenter
 
