@@ -9,7 +9,7 @@
 import UIKit
 
 class ___VARIABLE_productName:identifier___Wireframe {
-    private let nibName = "___VARIABLE_productName:identifier___ViewController"
+    private let nibName = "___VARIABLE_productName:identifier___"
 }
 
 extension ___VARIABLE_productName:identifier___Wireframe: ___VARIABLE_productName:identifier___WireframeProtocol {
