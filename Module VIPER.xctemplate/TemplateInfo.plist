@@ -64,25 +64,6 @@
 				<string>XIB</string>
 			</array>
 		</dict>
-		<dict>
-			<key>Identifier</key>
-			<string>WithDelegate</string>
-			<key>Name</key>
-			<string>Also create a delegate</string>
-			<key>Description</key>
-			<string>Whether to create a delegate implementation with the same name</string>
-			<key>Type</key>
-			<string>checkbox</string>
-			<key>Default</key>
-			<string>false</string>
-			<key>NotPersisted</key>
-			<true/>
-			<key>RequiredOptions</key>
-			<dict>
-				<key>viewType</key>
-				<string>Storyboard</string>
-			</dict>
-		</dict>
 	</array>
 	<key>CFBundleIdentifier</key>
 	<string></string>
