@@ -4,3 +4,5 @@ sudo rm -rf "$(xcode-select --print-path)"/Platforms/iPhoneOS.platform/Developer
 echo "Delete old .xctemplate "$(xcode-select --print-path)"/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Templates/Project\ Templates/iOS/Application/Module\ VIPER.xctemplate/"
 sudo cp -R Module\ VIPER.xctemplate "$(xcode-select --print-path)"/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Templates/Project\ Templates/iOS/Application/
 echo "New files copied"
+echo "----------------------"
+echo "🚀 Swift VIPER Module Template installed! (version 0.3.0)"
