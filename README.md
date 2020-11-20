@@ -64,6 +64,14 @@ Have fun! 🍪🦄🚀
 
 ## Release History
 
+* 0.3.0
+  * CHANGES:
+  	* ✨ Added Storyboard+Reusable option
+  	* ✨ Enhancements on communication between module elements
+  	* 🔥 Removed delegate option
+  	* 🔧 Fixed all warning reported by SwiftLint
+  	* 🔧 Proper renaming of components
+
 * 0.2.0
   * CHANGES:
     * Update README.md
