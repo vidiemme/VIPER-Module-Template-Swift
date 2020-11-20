@@ -18,7 +18,7 @@ class ___VARIABLE_productName:identifier___Wireframe {
 extension ___VARIABLE_productName:identifier___Wireframe: ___VARIABLE_productName:identifier___WireframeProtocol {
     
     func module() -> ___VARIABLE_productName:identifier___ViewController {
-        let vc = mainStoryboard.instantiateViewController(withIdentifier: "___VARIABLE_productName:identifier___") as! ___VARIABLE_productName:identifier___ViewController
+        let vc = mainStoryboard.instantiateViewController(withIdentifier: "___VARIABLE_productName:identifier___ViewController") as! ___VARIABLE_productName:identifier___ViewController
 
         let interactor = ___VARIABLE_productName:identifier___Interactor()
         let presenter = ___VARIABLE_productName:identifier___Presenter(view: vc, interactor: interactor, wireframe: self)
