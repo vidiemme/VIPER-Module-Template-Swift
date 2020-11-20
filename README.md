@@ -19,7 +19,7 @@ This template generates these files:
 - `_ModuleName_Presenter.swift`
 - `_ModuleName_Protocols.swift`
 - `_ModuleName_ViewController.swift`
-- `_ModuleName_ViewController.xib` or ` _ModuleName_ViewController.storyboard`
+- `_ModuleName_.xib` or ` _ModuleName_.storyboard`
 - `_ModuleName_Wireframe.swift`
 
 It sets up some boilerplate as well, connecting and allocating things.

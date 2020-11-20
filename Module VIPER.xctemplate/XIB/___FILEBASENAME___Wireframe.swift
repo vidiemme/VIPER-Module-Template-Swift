@@ -9,11 +9,11 @@
 import UIKit
 
 class ___VARIABLE_productName:identifier___Wireframe {
-    private let nibName = "___VARIABLE_productName:identifier___ViewController"
+    private let nibName = "___VARIABLE_productName:identifier___"
 }
 
 extension ___VARIABLE_productName:identifier___Wireframe: ___VARIABLE_productName:identifier___WireframeProtocol {
-    func createFromXib() -> ___VARIABLE_productName:identifier___ViewController {
+    func module() -> ___VARIABLE_productName:identifier___ViewController {
         let vc = ___VARIABLE_productName:identifier___ViewController(nibName: nibName, bundle: nil)
 
         let interactor = ___VARIABLE_productName:identifier___Interactor()

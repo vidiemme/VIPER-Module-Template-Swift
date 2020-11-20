@@ -11,7 +11,7 @@ import Reusable
 
 class ___VARIABLE_productName:identifier___ViewController: UIViewController, StoryboardSceneBased {
     
-    static let sceneStoryboard = UIStoryboard(name: "___VARIABLE_productName:identifier___ViewController", bundle: Bundle.main)
+    static let sceneStoryboard = UIStoryboard(name: "___VARIABLE_productName:identifier___", bundle: Bundle.main)
 
     var eventHandler: ___VARIABLE_productName:identifier___EventHandler?
     var dataProvider: ___VARIABLE_productName:identifier___DataProvider?

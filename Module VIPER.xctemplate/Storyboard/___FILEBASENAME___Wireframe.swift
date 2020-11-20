@@ -11,7 +11,7 @@ import UIKit
 class ___VARIABLE_productName:identifier___Wireframe {
     
     private var mainStoryboard: UIStoryboard {
-        return UIStoryboard(name: "___VARIABLE_productName:identifier___ViewController", bundle: Bundle.main)
+        return UIStoryboard(name: "___VARIABLE_productName:identifier___", bundle: Bundle.main)
     }
 }
 
